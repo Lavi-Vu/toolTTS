@@ -1,0 +1,42 @@
+{
+  "engines": {
+    "edge-tts": {
+      "name": "Edge TTS",
+      "description": "Microsoft Edge Text-to-Speech",
+      "languages": {
+        "en": "English",
+        "vi": "Vietnamese",
+        "es": "Spanish",
+        "fr": "French",
+        "ja": "Japanese",
+        "de": "German",
+        "it": "Italian",
+        "pt": "Portuguese",
+        "ru": "Russian",
+        "zh": "Chinese",
+        "ko": "Korean"
+      }
+    },
+    "custom": {
+      "name": "Custom Engine",
+      "description": "Template for custom TTS engine",
+      "template": true,
+      "languages": [
+        {
+          "code": "en",
+          "name": "English",
+          "voices": [
+            {"id": "custom-voice-1", "name": "Custom Voice 1", "gender": "neutral"}
+          ]
+        }
+      ]
+    }
+  },
+  "default_settings": {
+    "engine": "edge-tts",
+    "language": "en",
+    "voice": "en-US-AriaRUS",
+    "rate": "+0%",
+    "volume": "+0%"
+  }
+}
